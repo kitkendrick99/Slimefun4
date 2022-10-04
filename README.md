@@ -1,6 +1,9 @@
 # Slimefun 4
 "Slimefun4 but with the unallowed items code removed"
 
+changes made:
+https://github.com/kitkendrick99/Slimefun4/commit/a51752ad6ef7472394edaa8af1508c4be10c375d
+
 *Looking for the download link? [**Click here**](https://github.com/Slimefun/Slimefun4/blob/master/README.md#floppy_disk-download-slimefun-4)*
 
 Slimefun is a plugin which aims to turn your Spigot Server into a modpack without ever installing a single mod. It offers everything you could possibly imagine. From Backpacks to Jetpacks! Slimefun lets every player decide on their own how much they want to dive into Magic or Tech.<br>
