@@ -22,16 +22,11 @@ interface SlimefunCraftingListener extends Listener {
     }
 
     default boolean isUnallowed(@Nullable ItemStack item) {
-        if (item == null) {
-            return false;
-        }
-
-        SlimefunItem sfItem = SlimefunItem.getByItem(item);
-        return isUnallowed(sfItem);
+        return false;
     }
 
     default boolean isUnallowed(@Nullable SlimefunItem item) {
-        return item != null && !(item instanceof VanillaItem) && !item.isDisabled();
+        return false;
     }
 
 }
