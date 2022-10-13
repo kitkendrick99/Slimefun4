@@ -12,13 +12,14 @@ import io.github.thebusybiscuit.slimefun4.implementation.items.VanillaItem;
 interface SlimefunCraftingListener extends Listener {
 
     default boolean hasUnallowedItems(@Nullable ItemStack item1, @Nullable ItemStack item2) {
-        if (SlimefunGuide.isGuideItem(item1) || SlimefunGuide.isGuideItem(item2)) {
-            return true;
-        } else {
-            SlimefunItem sfItem1 = SlimefunItem.getByItem(item1);
-            SlimefunItem sfItem2 = SlimefunItem.getByItem(item2);
-            return isUnallowed(sfItem1) || isUnallowed(sfItem2);
-        }
+//         if (SlimefunGuide.isGuideItem(item1) || SlimefunGuide.isGuideItem(item2)) {
+//             return true;
+//         } else {
+//             SlimefunItem sfItem1 = SlimefunItem.getByItem(item1);
+//             SlimefunItem sfItem2 = SlimefunItem.getByItem(item2);
+//             return isUnallowed(sfItem1) || isUnallowed(sfItem2);
+//         }
+        return false;
     }
 
     default boolean isUnallowed(@Nullable ItemStack item) {
